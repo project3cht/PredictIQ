@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+anthropic.key
+kalshi_private.key
+
+# Build output
+dist/
+
+# Runtime data (keep .gitkeep, ignore actual data files)
+data/*.jsonl
+data/*.json
+
+# Claude Code local config
+.claude/settings.local.json
+.claude/launch.json
+.claude/
+.superpowers
+.__mocks__
+
+# macOS
+.DS_Store
