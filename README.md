@@ -4,6 +4,11 @@ An AI-powered prediction market agent and dashboard. Monitors Kalshi, Polymarket
 
 ---
 
+## Disclaimer
+
+For informational and research purposes only. Not financial advice. Prediction markets carry real financial risk — do your own research before placing any trades.
+
+---
 ## Quick start
 
 ```bash
@@ -207,9 +212,3 @@ npm test          # Jest unit tests
 node scripts/test-kalshi-auth.js   # Validate Kalshi key setup
 node scripts/test-signals.js       # Test Signals 6–8 matching logic
 ```
-
----
-
-## Disclaimer
-
-For informational and research purposes only. Not financial advice. Prediction markets carry real financial risk — do your own research before placing any trades.
